@@ -1,7 +1,12 @@
-#ifndef main.h
-#define main.h
+#ifndef main_h
+#define main_h
 
 #include <stdio.h>
+
+/**
+ *
+ * Function prototypes
+ */
 
 int _putchar(char c);
 
@@ -16,4 +21,4 @@ void puts_half(char *str);
 void print_array(int *a, int n);
 char *_strcpy(char *dest, char *src);
 
-#endif /* main.h */
+#endif /* main_h */
